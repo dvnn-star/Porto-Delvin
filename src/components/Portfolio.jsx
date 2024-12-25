@@ -2,6 +2,10 @@ import React from "react";
 import { RiTailwindCssFill ,RiBlenderLine } from "react-icons/ri";
 import { FaHtml5,FaJs } from "react-icons/fa6";
 import { SiGodotengine } from "react-icons/si"
+import gamerpg from "../assets/gamerpg.png";
+import kedaikopi from "../assets/kedaikopi.png";
+import password from "../assets/project2.png";
+
 export default function Portfolio(){
     return ( 
         <div id="portfolio" className="section py-10">
@@ -19,7 +23,7 @@ export default function Portfolio(){
               <div className="w-96 mx-auto rounded-xl bg-slate-600 relative group">
 
               <img 
-                src="./src/assets/gamerpg.png" 
+                src={gamerpg}
                 alt="Project Game RPG 2D" 
                 className="mx-auto rounded-xl transition duration-500 ease-in-out w-96 group-hover:blur-[3px]"
               />
@@ -41,7 +45,7 @@ export default function Portfolio(){
               <div className="w-96 mx-auto rounded-xl bg-slate-600 relative group">
 
               <img 
-                src="./src/assets/project2.png" 
+                src={password} 
                 alt="Password Generator Project" 
                 className="mx-auto transition rounded-xl duration-500 ease-in-out w-96  group-hover:blur-[3px] group-hover:opacity-45: "
               />
@@ -64,7 +68,7 @@ export default function Portfolio(){
                 <div className="w-96 mx-auto bg-slate-600 rounded-xl relative group ">
 
               <img 
-                src="./src/assets/kedaikopi.png" 
+                src={kedaikopi}
                 alt="Kedai Kopi Website Design" 
                 className="mx-auto transition duration-500 ease-in-out w-96 rounded-xl group-hover:blur-[2px]"
               />
